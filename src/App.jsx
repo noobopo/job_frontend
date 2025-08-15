@@ -14,7 +14,8 @@ import EditCompany from './components/admin/EditCompany'
 import AdminJobs from './components/admin/AdminJobs'
 import CreateJob from './components/admin/CreateJob'
 import Application from './components/admin/Application'
-import ProtectedRout from './components/admin/protectedRout'
+import ProtectedRout from './components/admin/Protect'
+
 
 
 const App = () => {

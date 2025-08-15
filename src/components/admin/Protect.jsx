@@ -9,7 +9,7 @@ const ProtectedRout = ({ children }) => {
         if (user === null || user.role !== 'recruiter') {
             navigate('/')
         }
-    }, [])
+    }, [user, navigate])
 
     return (
         <>
