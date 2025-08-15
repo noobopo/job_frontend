@@ -69,7 +69,7 @@ const JobDetails = () => {
 
       <div>
         <span className="font-bold text-xl">Requirements:</span>
-        <div className=" flex gap-2 mt-2">
+        <div className=" flex flex-wrap gap-2 mt-2">
           {singleJob?.requirments?.map((item, index) =>
             <span key={index} className=" px-2  rounded-md bg-white border-2 hover:bg-gray-300 transition-all duration-300 text-black">{item}</span>
           )}
